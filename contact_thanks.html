@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./slick/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="./slick/slick.css" type="text/css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/animate.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>極楽亭</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-logo"><a href="index.html"><img src="./image/logo.png" alt="header-logo"></a></h1>
+        <div class="header-nav">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="list-item"><a href="#">宿泊予約</a></li>
+                    <li class="list-item"><a href="#">観光情報</a></li>
+                    <li class="list-item"><a href="#">よくあるご質問</a></li>
+                    <li class="list-item"><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <button type="button" id="js-buttonHamburger" class="c-button p-hamburger" aria-controls="global-nav" aria-expanded="false">
+                <span class="p-hamburger__line">
+                </span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="archive-top-wrapper">
+            <!-- <section class="top-image">
+                <h1>祇園の中心に佇む<br>京の極楽浄土</h1>
+            </section> -->
+        </div>
+            <!-- メニュー用div -->
+            <div class="hide-menu">
+                <ul>
+                    <li><a href="#">宿泊予約</a></li>
+                    <li><a href="#">観光情報</a></li>
+                    <li><a href="#">よくある質問</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <div class="single-map">
+                <a href="index.html">ホーム</a><span>> 送信完了</span>
+            </div>
+            <div class="thanks-text">
+                <p>お問い合わせいただきありがとうございます。</br>内容を確認した後に、担当者よりご連絡を差し上げます。</p>
+                <a href="#">ホームへ戻る</a>
+            </div>
+        </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-list-box">
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">利用規約</a>
+                    </li>
+                    <li>
+                        <a href="#">プライバシーポリシー</a>
+                    </li>
+                    <li>
+                        <a href="#">個人商取引法に基づく表記</a>
+                    </li>
+                    <li id="footer-list-final">
+                        <a href="contact.html">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="../image/logo.png" alt="logo">
+            <p class="copy">Copyright (c) 2021 極楽亭 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
