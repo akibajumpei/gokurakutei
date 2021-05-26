@@ -171,7 +171,7 @@ header .header-nav .p-hamburger[aria-expanded="true"] .p-hamburger__line::after 
 }
 
 .top-wrapper {
-  background-image: url("../image/top-bg.png");
+  background-image: url("https://akibajumpei.github.io/gokurakutei/image/top-bg.png");
   background-size: cover;
   background-position: center;
   height: 674px;
@@ -756,7 +756,7 @@ footer .footer-wrapper .copy {
     margin-top: 94px;
   }
   .top-wrapper .top-image {
-    background-image: url("../image/top-mv_sp.png");
+    background-image: url("https://akibajumpei.github.io/gokurakutei/image/top-mv_sp.png");
     background-size: cover;
     background-position: center;
     height: 674px;
@@ -978,7 +978,7 @@ main {
 }
 
 .archive-top-wrapper {
-  background-image: url("../image/street-409993_1920@2x.png");
+  background-image: url("https://akibajumpei.github.io/gokurakutei/image/street-409993_1920@2x.png");
   background-size: cover;
   background-position: center;
   height: 296px;
@@ -1184,7 +1184,7 @@ main {
 }
 
 .archive-top-wrapper {
-  background-image: url("../image/street-409993_1920@2x.png");
+  background-image: url("https://akibajumpei.github.io/gokurakutei/image/street-409993_1920@2x.png");
   background-size: cover;
   background-position: center;
   height: 296px;
@@ -1358,7 +1358,7 @@ main {
 }
 
 .archive-top-wrapper {
-  background-image: url("../image/street-409993_1920@2x.png");
+  background-image: url("https://akibajumpei.github.io/gokurakutei/image/street-409993_1920@2x.png");
   background-size: cover;
   background-position: center;
   height: 296px;
